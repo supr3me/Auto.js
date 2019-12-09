@@ -45,8 +45,8 @@ class App : MultiDexApplication() {
         super.onCreate()
         GlobalAppContext.set(this)
         instance = WeakReference(this)
-        setUpStaticsTool()
-        setUpDebugEnvironment()
+        //setUpStaticsTool()
+        //setUpDebugEnvironment()
         init()
     }
 
